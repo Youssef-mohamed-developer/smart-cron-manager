@@ -15,8 +15,8 @@ npm install smart-cron-manager
 ## 📦 Usage
 
 ```js
-const SmartCronManager = require("smart-cron-manager");
-const cronManager = new SmartCronManager();
+const SmartCronManager = ;
+const cronManager = require("smart-cron-manager");
 
 // Add a job
 cronManager.addJob({
@@ -75,6 +75,7 @@ Returns list of all jobs and their schedules.
 
 ### `isRunning(id)`
 Checks if a job is currently running.
+
 ---
 
 ## 📜 License
