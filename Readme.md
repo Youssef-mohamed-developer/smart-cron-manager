@@ -73,6 +73,8 @@ Returns job object (or `null`).
 ### `listJobs()`
 Returns list of all jobs and their schedules.
 
+### `isRunning(id)`
+Checks if a job is currently running.
 ---
 
 ## 📜 License
