@@ -21,6 +21,7 @@ export interface SmartCronManagerInterface {
   stopJob(id: string): void;
   startJob(id: string): void;
   getJob(id: string): JobData | null;
+  hasJob(id: string): boolean;
   listJobs(): { id: string; schedule: string; running: boolean }[];
   isRunning(id: string): boolean;
 }
@@ -36,6 +37,7 @@ export declare class SmartCronManager implements SmartCronManagerInterface {
   stopJob(id: string): void;
   startJob(id: string): void;
   getJob(id: string): JobData | null;
+  hasJob(id: string): boolean;
   listJobs(): { id: string; schedule: string; running: boolean }[];
   isRunning(id: string): boolean;
 }

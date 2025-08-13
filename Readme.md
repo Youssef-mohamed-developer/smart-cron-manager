@@ -70,6 +70,9 @@ Control individual job execution.
 ### `getJob(id)`
 Returns job object (or `null`).
 
+### `hasJob(id)`
+Returns `true` if job exists, `false` otherwise.
+
 ### `listJobs()`
 Returns list of all jobs and their schedules.
 
